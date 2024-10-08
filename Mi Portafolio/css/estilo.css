@@ -1,0 +1,175 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+}
+.caja{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url("../ii2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 5px;
+    box-shadow: 10px 10px 10px blueviolet;
+    width: 100%;
+    height: 100%;
+}
+.caja2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(16, 16, 17);
+    margin: 5px;
+    box-shadow: 10px 10px 10px rgb(138, 43, 226);
+    width: 100%;
+    height: 100%; 
+}
+.caja3 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(138, 43, 226);
+    width: 100%;
+    height: 100%; 
+}
+
+p {
+    text-align: justify;
+    margin: 20px 20px;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+display: inline;
+margin: 0 10px;
+}
+nav ul li a{
+    color: rgb(0, 0, 0)
+    text-decoration: none;  
+}
+#about{
+    padding: 20px;
+    background: burlywood;
+}
+#about h2{
+    margin-top: 0;
+    text-align: center;
+}
+#portafolio {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.caja4 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+    height: 100%; 
+    background-color: rgb(146, 146, 146);
+    margin: 5px;
+    box-shadow: 10px 10px 10px rgb(138, 43, 226);
+} 
+#contact {
+    margin: 0;
+    background-color: rgb(255, 255, 255);   
+    padding: 10px;
+}
+#contact h2{
+    text-align: center;
+}
+form {
+    width: 98%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  input,
+textarea {
+  width: 100%;
+  padding: 12px 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 10px;
+  align-items: center;
+}
+
+input[type="submit"] {
+  background-color: #000000;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 2px solid #000000;
+}
+.gallery {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+.project {
+    width: 300px;
+    padding: 50px;
+    background: #ffffff;
+    border: 1px solid rgb(0, 0, 0); 
+    text-align: center;
+}
+.project img {
+    max-width: 20%;
+    height: 80%;
+}
+@media (max-width: 700px){
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
